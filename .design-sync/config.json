@@ -1,0 +1,44 @@
+{
+  "pkg": "rb-marine-design-system",
+  "globalName": "RBMarine",
+  "shape": "package",
+  "entry": "./index.js",
+  "componentSrcMap": {
+    "Logo": "components/Logo.jsx",
+    "Button": "components/Button.jsx",
+    "Badge": "components/Badge.jsx",
+    "GradientBlock": "components/GradientBlock.jsx",
+    "HeroCard": "components/GradientBlock.jsx",
+    "Display": "components/Typography.jsx",
+    "Heading": "components/Typography.jsx",
+    "Body": "components/Typography.jsx",
+    "Label": "components/Typography.jsx",
+    "Tagline": "components/Typography.jsx"
+  },
+  "readmeHeader": ".design-sync/conventions.md",
+  "docsDir": ".design-sync/docs",
+  "docsMap": {
+    "Logo": ".design-sync/docs/Logo.md",
+    "Button": ".design-sync/docs/Button.md",
+    "Badge": ".design-sync/docs/Badge.md",
+    "GradientBlock": ".design-sync/docs/GradientBlock.md",
+    "HeroCard": ".design-sync/docs/HeroCard.md",
+    "Display": ".design-sync/docs/Display.md",
+    "Heading": ".design-sync/docs/Heading.md",
+    "Body": ".design-sync/docs/Body.md",
+    "Label": ".design-sync/docs/Label.md",
+    "Tagline": ".design-sync/docs/Tagline.md"
+  },
+  "dtsPropsFor": {
+    "Logo": "/** Color/treatment lockup. @default 'primary' */\n  variant?: 'primary' | 'reversed' | 'mono-dark' | 'mono-light' | 'icon-only';\n  /** Icon+wordmark orientation. @default 'horizontal' */\n  layout?: 'horizontal' | 'stacked';\n  /** Overall lockup height in px. @default 64 */\n  height?: number;\n  className?: string;\n  style?: React.CSSProperties;",
+    "Button": "/** Visual emphasis. @default 'primary' */\n  variant?: 'primary' | 'secondary' | 'outline' | 'outline-light' | 'ghost';\n  /** @default 'md' */\n  size?: 'sm' | 'md' | 'lg';\n  /** Stretch to fill the container width. @default false */\n  fullWidth?: boolean;\n  /** @default false */\n  disabled?: boolean;\n  children?: React.ReactNode;\n  onClick?: React.MouseEventHandler;\n  /** Render as a different element/component, e.g. 'a'. @default 'button' */\n  as?: React.ElementType;\n  /** Link target when rendered as an anchor. */\n  href?: string;\n  className?: string;\n  style?: React.CSSProperties;",
+    "Badge": "children?: React.ReactNode;\n  /** Color tone. @default 'green' */\n  variant?: 'green' | 'blue' | 'navy' | 'lilac' | 'light' | 'outline';\n  style?: React.CSSProperties;",
+    "GradientBlock": "/** Brand gradient fill. @default 'hero' */\n  gradient?: 'greenEnergy' | 'lilacWave' | 'powerSurge' | 'hero';\n  /** Panel height preset; 'full' is viewport height with no radius. @default 'md' */\n  size?: 'sm' | 'md' | 'lg' | 'full';\n  children?: React.ReactNode;\n  style?: React.CSSProperties;",
+    "HeroCard": "/** Small uppercase green kicker. */\n  eyebrow?: React.ReactNode;\n  /** Large white headline. */\n  headline?: React.ReactNode;\n  /** Muted supporting copy. */\n  body?: React.ReactNode;\n  style?: React.CSSProperties;",
+    "Display": "children?: React.ReactNode;\n  /** Text color. @default '#ffffff' (white — for dark backgrounds) */\n  color?: string;\n  /** Use the expressive light-italic treatment. @default false */\n  italic?: boolean;\n  style?: React.CSSProperties;",
+    "Heading": "children?: React.ReactNode;\n  /** Heading rank; also sets the HTML tag h1–h4 and the size. @default 2 */\n  level?: 1 | 2 | 3 | 4;\n  /** Text color. @default '#001e60' (navy) */\n  color?: string;\n  style?: React.CSSProperties;",
+    "Body": "children?: React.ReactNode;\n  /** @default 'base' */\n  size?: 'sm' | 'base' | 'lg';\n  /** Text color. @default '#001e60' (navy) */\n  color?: string;\n  style?: React.CSSProperties;",
+    "Label": "children?: React.ReactNode;\n  /** Text color. @default '#001e60' (navy) */\n  color?: string;\n  style?: React.CSSProperties;",
+    "Tagline": "/** @default 'always on' */\n  children?: React.ReactNode;\n  /** Text color. @default '#d28dd3' (lilac) */\n  color?: string;\n  style?: React.CSSProperties;"
+  }
+}
