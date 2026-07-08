@@ -1,0 +1,10 @@
+{
+  "name": "rb-marine-design-system",
+  "version": "1.0.0",
+  "description": "RB Marine Design System — brand tokens and React components",
+  "type": "module",
+  "module": "index.js",
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
